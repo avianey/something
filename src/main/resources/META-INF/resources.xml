@@ -1,0 +1,20 @@
+<resources>
+    <Resource id="JTA_Datasource" type="javax.sql.DataSource">
+        # http://tomee.apache.org/containers-and-resources.html
+        # configure the pool
+        # DataSourceCreator = ${bd.datasourceCreator}
+
+        # it is a jta datasource
+        JtaManaged = true
+
+        # tomcat pool configuration
+        driverClassName = ${bd.driver}
+        url = ${bd.url}
+        username = ${bd.username}
+        password = ${bd.password}
+        validationQuery = ${bd.validationQuery}
+
+        # specific to tomcat pooling
+        jmxEnabled = true
+    </Resource>
+</resources>

@@ -1,0 +1,177 @@
+// Colors
+
+$white:            #fff;
+$dark:             #4e4b48;
+
+$bg:               $white;
+$foreground:       $dark;
+
+$text:             $foreground;
+$transparentText:  rgba($text, .8);
+$textInverse:      $bg;
+
+$color_0: #b2b4b2;
+$color_1: #ffc600;
+$color_2: #56b7e6;
+$color_3: #93c90e;
+$color_4: #9f5cc0;
+$color_5: #f4633a;
+$color_6: #9e652e;
+$color_7: #ff7cd6;
+
+// Dimensions
+
+$headerHeight: 80px;
+$sectionHeaderHeight: 60px;
+$sectionSubHeaderHeight: 48px;
+$verticalPadding: 10px;
+$horizontalPadding: 20px;
+$goalHeight: 48px;
+
+$fontSize: 16px;
+
+$borderSize: 2px;
+
+// GARBAGE
+
+$yellow: #F9BF3B;
+$yellow-dark: #8D6708;
+$yellow-light: #FFFACD;
+
+$green: #008040;
+$green-dark: #005500;
+$green-light: #E4F9DE;
+
+$red: #D50000;
+$red-dark: #8B0000;
+$red-light: #FFE3E0;
+
+$blue: #89C4F4;
+$blue-darker: #0F4880;
+$blue-dark: #2A7AB0;
+$blue-light: #E4F1FE;
+
+$brand: #2FA59E;
+$brand-dark: #28828C; // #2A7AB0 ?
+$brand-darker: #005566; // #28828C ?
+$brand-light: #E0FFFF;
+
+$brand-alt: #4B6488;
+$brand-alt-dark: #34495E;
+$brand-alt-darker: #1C3C50;
+
+// Bootstrap colors
+
+$gray-base:              #000;
+$gray-darker:            #292933;
+$gray-dark:              #929597;
+$gray:                   #DADFE1;
+$gray-light:             #ECF0F1;
+$gray-lighter:           #FFF;
+
+$brand-primary: $brand;
+$brand-success: $green;
+$brand-info: $blue;
+$brand-warning: $yellow;
+$brand-danger: $red;
+
+$color-disabled: #DADFE1;
+
+// Scaffolding
+
+$text-color: $gray-darker;
+$link-color: $brand-primary;
+$link-active-color: darken( $link-color, 4% );
+$link-hover-color:      $brand-dark;
+
+// Typography
+
+$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base:          11px;
+$font-size-large:         14px; // ~18px
+$line-height-base:        1.1;
+$headings-color:          $brand-alt;
+
+// Components
+
+$padding-base-vertical:     3px;
+$padding-base-horizontal:   10px;
+$padding-large-vertical:    0; // Custom button
+$padding-large-horizontal:   10px; // Custom button
+$border-radius-base:        3px;
+$border-radius-large:       5px;
+$border-radius-small:       1px;
+
+// Buttons
+
+$btn-border-radius: 10px;
+$btn-default-color: $brand-primary;
+$btn-default-bg:      $white;
+$btn-default-border: $brand-primary;
+$btn-primary-color:              $white;
+$btn-primary-bg:              $brand-primary;
+$btn-primary-border:              $brand-primary;
+$btn-link-disabled-color: $color-disabled;
+$btn-border-radius-base:         $btn-border-radius;
+$btn-border-radius-large:        ($btn-border-radius-base + 4px);
+$btn-border-radius-small:        ($btn-border-radius-base - 4px);
+
+// Forms
+
+$input-border-radius-base: 3px;
+$input-radius-small: 3px;
+$input-radius-large: 3px;
+$input-bg:                       $white;
+$input-border-focus:             $brand-primary;
+$input-color:                    $gray-darker;
+$input-color-placeholder:        #BBB;
+$form-group-margin-bottom: 3px;
+
+// Navbar
+
+$navbar-gradient-start-color: $brand-primary;
+$navbar-gradient-stop-color: $brand-dark;
+$navbar-default-color:             $white;
+$navbar-default-border:            $brand-primary;
+$navbar-default-link-color:                $white;
+
+// Nav pills
+
+$nav-pills-border-radius:                   $border-radius-small;
+
+// Buttons
+
+
+
+
+
+
+
+
+
+$text-muted:                  $gray-dark;
+
+
+
+$state-success-text:             $green-dark;
+$state-success-bg:               $brand-success;
+$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%);
+
+$state-info-text:                $blue-darker;
+$state-info-bg:                  $brand-primary;
+$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%);
+
+$state-warning-text:             $yellow-dark;
+$state-warning-bg:               $brand-warning;
+$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%);
+
+$state-danger-text:              $red-dark;
+$state-danger-bg:                $brand-danger;
+$state-danger-border:            $brand-danger;
+
+// Alerts
+
+$alert-success-bg:            $green-light;
+$alert-info-bg:               $blue-light;
+$alert-warning-bg:            $yellow-light;
+$alert-danger-bg:             $red-light;
